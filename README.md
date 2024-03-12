@@ -38,7 +38,8 @@ Replace the storageClassName in the "rabbit-statefulset.yaml".
 kubectl get storageclass
 ```
 
-file:///home/sobhi/Pictures/Screenshots/Screenshot%20from%202024-03-12%2015-21-33.png
+![Screenshot from 2024-03-12 15-21-33](https://github.com/sadeghsobhi/Deploying-RabbitMQ-Cluster-On-Kubernetes/assets/108259940/c4e255ff-1005-493b-8d74-9ed32644ba6e)
+
 
 
 
