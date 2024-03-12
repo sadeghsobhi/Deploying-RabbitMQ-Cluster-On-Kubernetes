@@ -1,0 +1,13 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: rabbitmq-route
+spec:
+  to:
+    kind: Service
+    name: rabbitmq
+    weight: 100
+  port:
+    targetPort: discovery
+
+
