@@ -37,8 +37,22 @@ Replace the storageClassName in the "rabbit-statefulset.yaml".
 ```
 kubectl get storageclass
 ```
+![Screenshot from 2024-03-12 15-21-33](https://github.com/sadeghsobhi/Deploying-RabbitMQ-Cluster-On-Kubernetes/assets/108259940/8fe8e575-571f-47e1-bb1d-0b53bba3eab7)
 
-![Screenshot from 2024-03-12 15-21-33](https://github.com/sadeghsobhi/Deploying-RabbitMQ-Cluster-On-Kubernetes/assets/108259940/c4e255ff-1005-493b-8d74-9ed32644ba6e)
+
+Execute the following command to create StatefulSet and Service.
+```
+kubectl create -n rabbits -f rabbit-statefulset.yaml
+```
+5.) Create Route for RabbitMQ service.
+Create rabbit-route.yaml file and execute the following command to create route.
+```
+kubectl create -n rabbits -f rabbit-route.yaml
+```
+
+
+
+
 
 
 
